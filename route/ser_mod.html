@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CryptoCalci</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'><link rel="stylesheet" href="./common.css">
+    <script>
+    function modInverse(a, b)
+        {
+            
+                    var mod = a % b ;
+                    return mod;
+                console.log("The mod of" , a , "and" , b, "is:")
+                console.log(modInverse(a,b))
+          
+        }</script>
+</head>
+<body>
+    <header class="showcase">
+        <div class="showcase-top">
+            <img src="2.png" ,align="Center" />
+        <div id="pricing-table" class="clear">
+            <div class="plan">
+                <h3 style="color:black">Mod Calculator<span>M</span></h3>         
+                <ul>
+                    <li>A mod B</li>
+                    <li>Enter A</li>
+                    <li><input id="a" type="number" placeholder="Enter Value Of A"></li>
+                    <li>Enter B</li>
+                    <li><input id="b" type="number" placeholder="Enter Value Of B"></li>
+                </ul> 
+                <a class="signup"  onclick="modInverse(a,b)">Calculate</a>	
+                <h3 style="color:black" class="text-center" id=""></h4>	
+            </div>   	
+        </div>
+    </header>
+</body>
+</html>

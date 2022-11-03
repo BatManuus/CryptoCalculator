@@ -13,7 +13,7 @@ h1,
 h2,
 h3,
 h4 {
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 
 a {
@@ -156,6 +156,21 @@ img {
       border-radius: 0 5px 0 0;       
   }	
   
+  /*  */
+  /*  */
+  #pricing-table .plan1 {
+    font: 12px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+    text-shadow: 0 1px rgba(255,255,255,.8);        
+    background: #fff;      
+    border: 120px solid rgb(5, 5, 5);
+    color: #333;
+    padding: 80px;
+    width: 450px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */      
+    float: left;
+    position: relative;
+}
+/*  */
+/*  */
   #pricing-table h3 span {
       display: block;
       font: bold 25px/100px Georgia, Serif;

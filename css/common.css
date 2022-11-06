@@ -28,7 +28,9 @@ p {
 img {
 	width: 100%;
 } */
+/*  */
 
+/*  */
 .showcase {
 	width: 100%;
 	height: 110vh;
@@ -71,19 +73,19 @@ img {
 }
   
   #pricing-table {
-      margin: 100px auto;
+      margin: 80px auto;
       text-align: center;
-      width: 892px; /* total computed width = 222 x 3 + 226 */
+      width: 1592px; /* total computed width = 222 x 3 + 226 */
   }
   
   #pricing-table .plan {
-      font: 12px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+      font: 30px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
       text-shadow: 0 1px rgba(255,255,255,.8);        
       background: #fff;      
       border: 50px solid rgb(5, 5, 5);
       color: #333;
       padding: 80px;
-      width: 180px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */      
+      width: 480px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */      
       float: left;
       position: relative;
   }
@@ -128,6 +130,14 @@ img {
       background-image: -ms-linear-gradient(#fff, #eee);
       background-image: linear-gradient(#fff, #eee);
   }
+
+  #pricing-table input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
   
   #pricing-table #most-popular h3 {
       background-color: #ddd;
@@ -159,13 +169,13 @@ img {
   /*  */
   /*  */
   #pricing-table .plan1 {
-    font: 12px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+    font: 25px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
     text-shadow: 0 1px rgba(255,255,255,.8);        
     background: #fff;      
-    border: 120px solid rgb(5, 5, 5);
+    border: 20px solid rgb(5, 5, 5);
     color: #333;
     padding: 80px;
-    width: 450px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */      
+    width: 1300px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */      
     float: left;
     position: relative;
 }
@@ -206,9 +216,9 @@ img {
   #pricing-table .signup {
       position: relative;
       padding: 10px 20px;
-      margin: 45px 0px 0px 85px;  
+      margin: 45px 0px 0px 0px;  
       color: #fff;
-      font: bold 14px Arial, Helvetica;
+      font: bold 25px Arial, Helvetica;
       text-transform: uppercase;
       text-decoration: none;
       display: inline-block;       

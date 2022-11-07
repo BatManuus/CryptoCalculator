@@ -4,16 +4,30 @@
   <meta charset="UTF-8">
   <title>CryptoCalci</title>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'><link rel="stylesheet" href="/css/main1.css">
+  <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 </head>
 <body>
-
+	<div class="menu">
+		<div class="title">MENU</div>
+		<ul class="nav">
+		  <li><a href="/index.html">Home</a></li>
+		  <li><a href="/route/main1.html">Algorithms</a></li>
+		  <li><a href="#">About</a></li>
+		  <li><a href="/route/main2.html">Services</a></li>
+		  <li><a href="#">Contact</a></li>
+		</ul>
+	</div>
 <!-- partial:index.partial.html -->
 		<section class="tabs">
 			<div class="container">
 				<div id="tab-1" class="tab-item tab-border">
 					<img src="/img/symic1.png"width="50"height="50"></i>
-					<p class="hide-sm">Symmetric</p>
+					<p class="hide-sm">Symmetric-Stream</p>
+				</div>
+				<div id="tab-4" class="tab-item">
+					<img src="/img/blocksy.png"width="50"height="50"></i>
+					<p class="hide-sm">Symmetric-Block</p>
 				</div>
 				<div id="tab-2" class="tab-item">
 					<img src="/img/asymic1.png"width="50"height="50"></i>
@@ -23,6 +37,7 @@
 					<img src="/img/hashic1.png"width="50"height="50"></i>
 					<p class="hide-sm">Hashing</p>
 				</div>
+				
 			</div>
 		</section>
 
@@ -87,40 +102,39 @@
 							</a>
 							</div>
 						</div>
-						<div class="work">
-							<div class="imageContainer">
-								<div class="caption center">DES</div>
-							<a href="/route/dummy.html">
-							<img src="/img/main.png">
-							</a>
-							</div>
-						</div>
-						<div class="work">
-							<div class="imageContainer">
-								<div class="caption center">3DES</div>
-							<a href="/route/dummy.html">
-							<img src="/img/main.png">
-							</a>
-							</div>
-						</div>
-						<div class="work">
-							<div class="imageContainer">
-								<div class="caption center">AES</div>
-							<a href="/route/dummy.html">
-							<img src="/img/main.png">
-							</a>
-							</div>
-						</div>
-						<div class="work">
-							<div class="imageContainer">
-								<div class="caption center">RC5</div>
-							<a href="/route/dummy.html">
-							<img src="/img/main.png">
-							</a>
-							</div>
-						</div>
 				</div>
 				</div>
+				
+				<!-- Tab Content 4 -->
+				<div id="tab-4-content" class="tab-content-item">
+					<div class="tab-4-content-inner">
+						<div class="work">
+							<div class="imageContainer">
+								<div class="caption center"><a href="/route/ag_aes.html">AES</a></div>
+							<a href="/route/ag_aes.html">
+							<img src="/img/main.png">
+							</a>
+							</div>
+						</div>
+						<div class="work">
+							<div class="imageContainer">
+								<div class="caption center"><a href="/route/ag_des.html">DES</a></div>
+							<a href="/route/ag_des.html">
+							<img src="/img/main.png">
+							</a>
+							</div>
+						</div>
+						<div class="work">
+							<div class="imageContainer">
+								<div class="caption center"><a href="/route/ag_rc4.html">RC-4</a></div>
+							<a href="/route/ag_rc4.html">
+							<img src="/img/main.png">
+							</a>
+							</div>
+						</div>
+
+				</div>
+			</div>
 
 				<!-- Tab Content 2 -->
 				<div id="tab-2-content" class="tab-content-item">
@@ -136,7 +150,7 @@
 						</div>
 						<div class="work">
 							<div class="imageContainer">
-								<div class="caption center">RSA</div>
+								<div class="caption center">El-Gamal</div>
 							<a href="/route/dummy.html">
 							<img src="/img/main.png">
 							</a>

@@ -357,7 +357,7 @@ img {
 
 
 #subButton {
-  background-color: #4CDF50;
+  background-color: #381bbd;
   border: none;
   border-radius: 5px;
   color: black;
@@ -372,7 +372,7 @@ img {
 }
 
 #subButtonH {
-  background-color: #4CDF50;
+  background-color: #381bbd;
   border: none;
   border-radius: 5px;
   color: black;
@@ -388,7 +388,7 @@ img {
 }
 
 #encButton0, #decButton0 {
-  background-color: #73cf2a;
+  background-color: #381bbd;
   border: none;
   border-radius: 5px;
   color: black;
@@ -405,7 +405,7 @@ img {
 }
 
 #enhButton0, #dehButton0 {
-  background-color: #73cf2a;
+  background-color: #381bbd;
   border: none;
   border-radius: 5px;
   color: black;
@@ -428,13 +428,13 @@ img {
 
 
 #decButton0 {
-  background-color: #9fbd38;
+  background-color: #381bbd;
   margin-top: -50px;
   margin-left: 200px;
 }
 
 #encButton, #decButton {
-  background-color: #4CDF50;
+  background-color: #381bbd;
   border: none;
   position: relative;
   border-radius: 5px;
